@@ -23,13 +23,13 @@ m = (2**(y//2))*x
 print("After",y,"minutes, we would have",m,"bacterias")
 
 print("-----------5-------------")
-x=int(input("How many months do rabbits have? "))
+##x=int(input("How many months do rabbits have? "))
 a = 1
 b = 1
-for i in range(0,x):
+for i in range(0,4):
       t=a
       a = b
       b = a + t
       
-print("The number of rabbits after",x,"months are:",b)
+print("The number of rabbits after",4,"months are:",b)
 
