@@ -1,3 +1,8 @@
+#1
+#type()
+#variable name starts with number/contain special characters/same as Python's keywords
+#44x,y$,class
+
 print("-----------2-------------")
 x=int(input("Radius? "))
 y = x*x*3.14
